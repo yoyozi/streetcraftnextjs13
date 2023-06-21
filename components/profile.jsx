@@ -28,7 +28,7 @@ const Card = (props) => {
           />
         </div>
         <div className='flex flex-col justify-center m-4'>
-              <div className='text-2xl text-brightRed mx-auto font-bold'>{crafter.title}</div>
+              <div className='text-2xl text-primary mx-auto font-bold'>{crafter.title}</div>
               <address className='mx-auto'>{crafter.location}</address>
               <div className='mb-2 mx-auto'>{crafter.mobile}</div>
         </div>

@@ -23,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
-			<body className={poppins.className}> 
+			<body className={poppins.className}>
         <div className='flex flex-col h-auto'>
           <Header />
             <main>{children}</main>

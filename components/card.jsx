@@ -12,7 +12,7 @@ const Card = (props) => {
 
 	return (
 
-      <div className='max-w-sm rounded overflow-hidden border-2 m-6 border-slate-400 shadow-lg'>
+      <div className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 max-w-sm rounded overflow-hidden border-2 m-6 border-slate-400 shadow-lg'>
         <Link href={exploreLink}>
           <Image
             className="width-full"
@@ -27,7 +27,7 @@ const Card = (props) => {
             }}
           />
           <div className='flex flex-col justify-center m-4'>
-            <div className='text-2xl text-brightRed mx-auto font-bold'>{crafter.title}</div>
+            <div className='text-2xl text-primary mx-auto font-bold'>{crafter.title}</div>
             <div className='mx-auto text-sm font-bold'>{crafter.category}</div>
             <address className='mx-auto'>{crafter.location}</address>
             <div className='mb-2 mx-auto'>{crafter.mobile}</div>

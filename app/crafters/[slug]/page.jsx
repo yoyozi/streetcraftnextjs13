@@ -26,16 +26,16 @@ const CraftersNamePage = async ({ params: { slug } }) => {
 
 	return (
 		<>
-			<div className='grid place-items-center bg-slate-200'>
+			<div className='grid place-items-center'>
 				<div className='grid grid-cols-1 md:grid-cols-2 sm:mt-28 md:mt-24 mt-20'>
-					<div className='w-60 mb-4'>
+					<div className='w-60 mb-4 rounded-md border-2 border-slate-300'>
 						<Image
 							src={`/images/profile/${crafter.landingPic}`}
 							alt={crafter.title}
 							width={1200}
 							height={939}
 							sizes='100vw'
-							className='object-fill'
+							className='object-fill rounded-md'
 							//className="image"
 							//placeholder="blur"
 							// style={{
@@ -50,7 +50,7 @@ const CraftersNamePage = async ({ params: { slug } }) => {
 					</div>
 
 					<div className='flex flex-col justify-center '>
-						<div className='text-2xl text-brightRed mx-auto font-bold'>
+						<div className='text-2xl text-primary mx-auto font-bold'>
 							{crafter.title}
 						</div>
 						<div className='mx-auto text-sm font-bold'>{crafter.category}</div>

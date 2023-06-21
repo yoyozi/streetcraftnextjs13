@@ -8,7 +8,7 @@ const AllImages = async (props) => {
     return <>
       <div>
         {allImages.map((pic, index) => (
-          <div key={index} className="flex flex-col place-items-center my-3 max-wi">
+          <div key={index} className="flex flex-col place-items-center my-3 max-width">
             <Image
               src={`/images/craftersLightBox/${slugName}/${pic}`}
               width={1200}
@@ -18,7 +18,7 @@ const AllImages = async (props) => {
                 maxWidth: "90%",
                 height: "auto",
               }} 
-              className='object-fill my-2'
+              className='object-fill my-2 rounded-md'
             />
           </div>
           ))}
