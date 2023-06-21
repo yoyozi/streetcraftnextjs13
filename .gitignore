@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# My todo
+z-todo.txt
+
+# Remove all Data
+/data
